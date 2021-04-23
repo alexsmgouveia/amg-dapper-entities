@@ -18,7 +18,7 @@ The easiest way to get started is by installing [AMG.DapperEntities.Setup.msi](h
 ![image](https://user-images.githubusercontent.com/35737565/115893106-3a63c500-a42e-11eb-928e-c91551236fd1.png)
 
 #### Change the environment variables and add the installation path:
-<pre>C:\Program Files (x86)\AMG Sistemas\AMG DapperEntities\</pre>
+<pre>C:\Program Files (x86)\AMG Sistemas\AMG DapperEntities\bin</pre>
 
 #### Or run registerPath.bat (Administrator):
 <pre>for /F "tokens=2* delims= " %%f IN ('reg query HKCU\Environment /v PATH ^| findstr /i path') do set OLD_SYSTEM_PATH=%%g
