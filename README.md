@@ -1,5 +1,5 @@
 # amg-dapper-entities
-CLI to assist in the generation of .NET entity classes
+CLI to assist in the generation of .NET entities classes
  
 ## Features
 AMG.Dapper.Entities is an aid in creating entity classes. In the current version it only supports the SQLServer database.
