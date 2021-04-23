@@ -20,7 +20,7 @@ The easiest way to get started is by installing [AMG.DapperEntities.Setup.msi](h
 #### Change the environment variables and add the installation path:
 <pre>C:\Program Files (x86)\AMG Sistemas\AMG DapperEntities\bin</pre>
 
-#### Or run registerPath.bat (Administrator):
+#### Or run registerPath.bat:
 <pre>for /F "tokens=2* delims= " %%f IN ('reg query HKCU\Environment /v PATH ^| findstr /i path') do set OLD_SYSTEM_PATH=%%g
 setx PATH "C:\Program Files (x86)\AMG Sistemas\AMG DapperEntities\bin;%OLD_SYSTEM_PATH%"</pre>
 
@@ -43,6 +43,7 @@ amg-dapper config-delete  : Deletes the file from the current configuration
 amg-dapper entity-create  : Creates the entity class based on table properties
 amg-dapper entity-update  : Updates the entity class based on table properties
 </pre>
+ 
 
 #### File amg-dapper-entities.json:
 <pre>
