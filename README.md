@@ -61,4 +61,4 @@ amg-dapper entity-update  : Updates the entity class based on table properties
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/hi-hi-ray/LICENSE.md) file for details
+This project is licensed under the MIT License.
