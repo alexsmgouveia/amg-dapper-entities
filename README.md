@@ -25,7 +25,10 @@ The easiest way to get started is by installing [AMG.DapperEntities.Setup.msi](h
 setx PATH "C:\Program Files (x86)\AMG Sistemas\AMG DapperEntities\bin;%OLD_SYSTEM_PATH%"</pre>
 
 #### Open your project:
-right-click the project and click `open in terminal`
+Open project path `in CMD`
+
+![image](https://user-images.githubusercontent.com/35737565/115912441-b584a580-a445-11eb-9fcc-716a619a5c97.png)
+
 
 #### Commands:
 <pre>
