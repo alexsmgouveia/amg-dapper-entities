@@ -12,7 +12,7 @@ The following platforms have been tested and are supported:
 `NetCore 3.1` [installing the available version](https://dotnet.microsoft.com/download/dotnet/3.1)
 
 ## Getting started
-The easiest way to get started is by [installing AMG.DapperEntities.Setup.msi](https://www.nuget.org/packages/PESALEXMapper.Helper) e follow these steps:
+The easiest way to get started is by installing [AMG.DapperEntities.Setup.msi](https://github.com/alexsmgouveia/amg-dapper-entities/raw/master/AMG.DapperEntities.Setup.msi) e follow these steps:
 
 #### Install AMG Dapper Entities:
 ![image](https://user-images.githubusercontent.com/35737565/115893106-3a63c500-a42e-11eb-928e-c91551236fd1.png)
