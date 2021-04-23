@@ -1,0 +1,10 @@
+{
+	"engine": "SQLSERVER",
+	"server": "",
+	"database": "",
+	"user": "",
+	"password": "",
+	"schemas": "all",
+	"tables": "all",
+	"entitynamespace" :  ""
+}

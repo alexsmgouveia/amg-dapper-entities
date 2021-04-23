@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>AMG.DapperEntities</RootNamespace>
+    <AssemblyName>amg-dapper</AssemblyName>
+    <Authors>Alex Gouveia</Authors>
+    <Company>AMG Sistemas e Tecnologia</Company>
+    <Product>Dapper Entities</Product>
+    <Description>Automated Entity Class Generator</Description>
+    <SignAssembly>true</SignAssembly>
+    <DelaySign>true</DelaySign>
+    <AssemblyOriginatorKeyFile>amg_sistemas.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\**" />
+    <Compile Remove="bin\Release\netcoreapp3.1\publish\**" />
+    <EmbeddedResource Remove="bin\Debug\**" />
+    <EmbeddedResource Remove="bin\Release\netcoreapp3.1\publish\**" />
+    <None Remove="bin\Debug\**" />
+    <None Remove="bin\Release\netcoreapp3.1\publish\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Release\netcoreapp3.1\amg-dapper.deps.json" />
+    <Content Include="bin\Release\netcoreapp3.1\amg-dapper.runtimeconfig.dev.json" />
+    <Content Include="bin\Release\netcoreapp3.1\amg-dapper.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Release\netcoreapp3.1\amg-dapper.dll" />
+    <None Include="bin\Release\netcoreapp3.1\amg-dapper.exe" />
+    <None Include="bin\Release\netcoreapp3.1\amg-dapper.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.CrossCutting.dll" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.CrossCutting.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.Domain.Data.dll" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.Domain.Data.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.Domain.dll" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.Domain.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.Infra.dll" />
+    <None Include="bin\Release\netcoreapp3.1\AMG.DapperEntities.Infra.pdb" />
+    <None Include="bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Dapper.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Google.Protobuf.dll" />
+    <None Include="bin\Release\netcoreapp3.1\K4os.Compression.LZ4.dll" />
+    <None Include="bin\Release\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll" />
+    <None Include="bin\Release\netcoreapp3.1\K4os.Hash.xxHash.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Release\netcoreapp3.1\MySql.Data.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Newtonsoft.Json.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Npgsql.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Release\netcoreapp3.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Release\netcoreapp3.1\System.Drawing.Common.dll" />
+    <None Include="bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Release\netcoreapp3.1\System.Security.Permissions.dll" />
+    <None Include="bin\Release\netcoreapp3.1\System.Windows.Extensions.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Ubiety.Dns.Core.dll" />
+    <None Include="bin\Release\netcoreapp3.1\Zstandard.Net.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\AMG.DapperEntities.Domain.Services\AMG.DapperEntities.Domain.Data.csproj" />
+    <ProjectReference Include="..\src\AMG.DapperEntities.Domain\AMG.DapperEntities.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

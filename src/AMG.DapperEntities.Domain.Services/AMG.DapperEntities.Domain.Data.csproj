@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AMG.DapperEntities.CrossCutting\AMG.DapperEntities.CrossCutting.csproj" />
+    <ProjectReference Include="..\AMG.DapperEntities.Domain\AMG.DapperEntities.Domain.csproj" />
+    <ProjectReference Include="..\AMG.DapperEntities.Infra\AMG.DapperEntities.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
