@@ -61,14 +61,14 @@ amg-dapper entity-update  : Updates the entity class based on table properties
 </pre>
 
 - **`engine`**: This version only includes "SQLSERVER". The other engines such as "MYSQL" and "POSTGRESQL" will be made available in a new version.
-- **`server`**: database server path.
-- **`database`**: database name.
-- **`user`**:  username.
-- **`password`**: connection password.
-- **`schemas`**: mapping of the schemas. use "all" for everyone, or enter names separated by commas. Example: "schema1,schema2". 
-- **`tables`**: mapping of tables. use "all" for everyone, or enter names separated by commas. Example: "Table1,Table2,Table3".
-- **`entitynamespace`**: your entity class namespace.
-- **`projectsubfolder`**: folder where the entity classes will be generated.
+- **`server`**: Database server path.
+- **`database`**: Database name.
+- **`user`**:  Username.
+- **`password`**: Connection password.
+- **`schemas`**: Mapping of the schemas. Use "all" for everyone, or enter names separated by commas. Example: "schema1,schema2". 
+- **`tables`**: Mapping of tables. Use "all" for everyone, or enter names separated by commas. Example: "Table1,Table2,Table3".
+- **`entitynamespace`**: Your entity class namespace.
+- **`projectsubfolder`**: Folder where the entity classes will be generated.
 
 ## License
 This project is licensed under the [MIT License](https://github.com/alexsmgouveia/amg-dapper-entities/blob/master/LICENSE).
