@@ -65,8 +65,8 @@ amg-dapper entity-update  : Updates the entity class based on table properties
 - **`database`**: database name.
 - **`user`**:  username.
 - **`password`**: connection password.
-- **`schemas`**: mapping of the schemas. use "all" for everyone, or enter names separated by commas. Example: "schema1, schema2". 
-- **`tables`**: mapping of tables. use "all" for everyone, or enter names separated by commas. Example: "Table1, Table2, Table3".
+- **`schemas`**: mapping of the schemas. use "all" for everyone, or enter names separated by commas. Example: "schema1,schema2". 
+- **`tables`**: mapping of tables. use "all" for everyone, or enter names separated by commas. Example: "Table1,Table2,Table3".
 - **`entitynamespace`**: your entity class namespace.
 - **`projectsubfolder`**: folder where the entity classes will be generated.
 
